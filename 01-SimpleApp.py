@@ -5,7 +5,6 @@ __author__ = 'Jagger Kyne'
 
 
 # this way of import is not good, but go along with the tutorial.
-# TODO this app runs, but for some reason, it is not shown in mac.
 
 from PySide.QtCore import *
 
