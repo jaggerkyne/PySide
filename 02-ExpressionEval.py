@@ -36,7 +36,8 @@ class Form(QDialog):
             self.resultsList.append("{0} =<b>{1}</b>".format(text, eval(text)))
 
         except:
-            self.resultsList.append("<font color=red><b>Expression Invalid</b></font>")
+            #self.resultsList.append("<font color=red><b>Expression Invalid</b></font>")
+            self.resultsList.append(u"<font color=red><b>格式错误</b></font>")
 
 
 
